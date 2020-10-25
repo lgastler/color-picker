@@ -2196,6 +2196,11 @@ video {
     margin-left: calc(1rem * calc(1 - var(--space-x-reverse)));
   }
 
+  .\32xl\:rounded-r-none {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
   .\32xl\:rounded-l-none {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;

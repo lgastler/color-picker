@@ -149,7 +149,7 @@
               <div
                 x-on:click="getHex(item, 50)"
                 :class="{['bg-'+item+'-50']: true}"
-                class="relative w-8 h-16 transition ease-in-out transform cursor-pointer md:w-12 md:h-16 xl:w-16 xl:h-16 group duration-25 rounded-r-xl 2xl:rounded-l-none 2xl:rounded-b-xl hover:scale-125 hover:rounded-md hover:z-20"
+                class="relative w-8 h-16 transition ease-in-out transform cursor-pointer md:w-12 md:h-16 xl:w-16 xl:h-16 group duration-25 rounded-r-xl 2xl:rounded-r-none 2xl:rounded-b-xl hover:scale-125 hover:rounded-md hover:z-20"
               >
                 <div
                   class="items-center justify-center hidden h-full group-hover:flex"
@@ -176,8 +176,8 @@
             x-transition:leave-end="opacity-0"
             class="w-full max-w-sm bg-white rounded-lg shadow-lg pointer-events-auto"
           >
-            <div class="overflow-hidden bg-white rounded-lg shadow-xs">
-              <div class="p-4 bg-white">
+            <div class="overflow-hidden rounded-lg shadow-xs">
+              <div class="p-4">
                 <div class="flex items-center">
                   <div class="flex justify-between flex-1 w-0">
                     <p
