@@ -95,9 +95,9 @@ camelcase-css@^2.0.1:
   integrity sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==
 
 caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001135:
-  version "1.0.30001150"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001150.tgz#6d0d829da654b0b233576de00335586bc2004df1"
-  integrity sha512-kiNKvihW0m36UhAFnl7bOAv0i1K1f6wpfVtTF5O5O82XzgtBnb05V0XeV3oZ968vfg2sRNChsHw8ASH2hDfoYQ==
+  version "1.0.30001151"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001151.tgz#1ddfde5e6fff02aad7940b4edb7d3ac76b0cb00b"
+  integrity sha512-Zh3sHqskX6mHNrqUerh+fkf0N72cMxrmflzje/JyVImfpknscMnkeJrlFGJcqTmaa0iszdYptGpWMJCRQDkBVw==
 
 chalk@^2.4.1, chalk@^2.4.2:
   version "2.4.2"
@@ -162,9 +162,9 @@ colorette@^1.2.1:
   integrity sha512-puCDz0CzydiSYOrnXpz/PKd69zRrribezjtE9yd4zvytoRc8+RY/KJPvtPFKZS3E3wP6neGyMe0vOTlHO5L3Pw==
 
 commander@^6.0.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-6.1.0.tgz#f8d722b78103141006b66f4c7ba1e97315ba75bc"
-  integrity sha512-wl7PNrYWd2y5mp1OK/LhTlv8Ff4kQJQRXXAvF+uU/TPNiVJUxZLRYGj/B0y/lPGAVcSbJqH2Za/cvHmrPMC8mA==
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-6.2.0.tgz#b990bfb8ac030aedc6d11bc04d1488ffef56db75"
+  integrity sha512-zP4jEKbe8SHzKJYQmq8Y9gYjtO/POJLgIdKgV7B9qNmABVFVc+ctqSX6iXh4mCpJfRBOabiZ2YKPg8ciDw6C+Q==
 
 concat-map@0.0.1:
   version "0.0.1"
@@ -201,9 +201,9 @@ didyoumean@^1.2.1:
   integrity sha1-6S7f2tplN9SE1zwBcv0eugxJdv8=
 
 electron-to-chromium@^1.3.571:
-  version "1.3.582"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.582.tgz#1adfac5affce84d85b3d7b3dfbc4ade293a6ffc4"
-  integrity sha512-0nCJ7cSqnkMC+kUuPs0YgklFHraWGl/xHqtZWWtOeVtyi+YqkoAOMGuZQad43DscXCQI/yizcTa3u6B5r+BLww==
+  version "1.3.583"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.583.tgz#47a9fde74740b1205dba96db2e433132964ba3ee"
+  integrity sha512-L9BwLwJohjZW9mQESI79HRzhicPk1DFgM+8hOCfGgGCFEcA3Otpv7QK6SGtYoZvfQfE3wKLh0Hd5ptqUFv3gvQ==
 
 escalade@^3.1.0:
   version "3.1.1"
@@ -526,10 +526,10 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-tailwindcss@^2.0.0-alpha.1:
-  version "2.0.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-2.0.0-alpha.1.tgz#d2e99931365ff40a3371bd3b05dc8a9f71b7d817"
-  integrity sha512-84qx549WORs08n+aZIMyUvvQTlBbxZybPxqOLPsyQMeZ4XIecyDoDvWExcXim13ozz1Fpo5eHd/8QydpgPNvTw==
+tailwindcss@^2.0.0-alpha.2:
+  version "2.0.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-2.0.0-alpha.2.tgz#6d838389aa42dccadd720f9d6684f3d05cbf7d11"
+  integrity sha512-+pLC6AWBGMhAWVb9I/NgVGb2130+v8QRe5q6CDUHGyTFlqyA26uiuBfVRoCrIBK0dNaaBfUf8YgkL1uZwmEEKA==
   dependencies:
     "@fullhuman/postcss-purgecss" "^3.0.0"
     autoprefixer "^9.8.6"

@@ -281,11 +281,11 @@ module.exports = {
   darkMode: false,
   theme: {
     extend: {
+      colors,
       transitionDuration: {
         25: "25ms",
       },
     },
-    colors,
   },
   variants: {
     borderRadius: ["responsive", "hover", "focus"],

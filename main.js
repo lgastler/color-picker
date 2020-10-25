@@ -266,6 +266,8 @@ function state() {
         900: "#0f172a",
       },
     },
+    showNotification: false,
+    notificationIndex: 0,
     items: [
       "rose",
       "pink",
@@ -291,7 +293,22 @@ function state() {
       "blueGray",
     ],
     getHex(color, colorValue) {
+      this.showNotification = false;
       navigator.clipboard.writeText(this.colors[color][colorValue]);
+      setTimeout(() => {
+        this.showNotification = true;
+        this.notificationIndex += 1;
+        setTimeout(
+          (index) => {
+            console.log(index, this.notificationIndex);
+            if (this.showNotification && index == this.notificationIndex) {
+              this.showNotification = false;
+            }
+          },
+          3000,
+          this.notificationIndex
+        );
+      }, 500);
     },
   };
 }
